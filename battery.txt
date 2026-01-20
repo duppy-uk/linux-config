@@ -1,0 +1,6 @@
+sudo apt install tlp tlp-rdw smartmontools
+sudo systemctl enable --now tlp.serv
+
+** REBOOT **
+
+sudo tlp-stat
