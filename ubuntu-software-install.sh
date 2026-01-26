@@ -1,12 +1,14 @@
+sudo add-apt-repository universe
+sudo add-apt-repository multiverse
 sudo apt update
 
 # Install software repositories & store
 
-sudo apt install -y flatpak malcontent-gui
+sudo apt install -y flatpak malcontent-gui plasma-discover-backend-flatpak
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 sudo apt install -y gnome-software gnome-software-plugin-flatpak gnome-software-plugin-snap
 
 # Install small utilities
-sudo apt install -y joe nala gnome-shell-extension-manager xfce4-terminal btop
+sudo apt install -y joe nala xfce4-terminal btop
 
-sudo apt install -y build-essential
+sudo apt install -y build-essential kubuntu-restricted-extras
