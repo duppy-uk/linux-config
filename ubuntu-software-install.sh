@@ -22,6 +22,24 @@ git clone https://github.com/ryanoasis/nerd-fonts
 
 apt install -y kdenlive krita
 
+sudo snap install snap-store
 sudo snap install obsidian --classic
 sudo snap install code --classic
 sudo snap install pycharm --classic
+sudo snap install vivaldi
+sudo snap install telegram-desktop
+sudo snap install copilot-desktop
+
+sudo snap install discord
+snap connect discord:system-observe
+
+sudo snap install musescore
+sudo snap connect musescore:cups-control
+sudo snap connect musescore:network-manager
+sudo snap connect musescore:alsa
+sudo snap connect musescore:removable-media
+
+sudo snap install pocket-casts
+sudo snap install apple-music-for-linux
+
+sudo snap install mc-installer
