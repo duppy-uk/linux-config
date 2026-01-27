@@ -29,6 +29,7 @@ sudo snap install pycharm --classic
 sudo snap install vivaldi
 sudo snap install telegram-desktop
 sudo snap install copilot-desktop
+sudo snap install deepseek-desktop
 
 sudo snap install discord
 snap connect discord:system-observe
@@ -43,3 +44,4 @@ sudo snap install pocket-casts
 sudo snap install apple-music-for-linux
 
 sudo snap install mc-installer
+sudo snap install steam
