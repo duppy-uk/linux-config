@@ -22,6 +22,8 @@ git clone https://github.com/ryanoasis/nerd-fonts
 
 apt install -y kdenlive krita
 
+# Install snaps
+
 sudo snap install snap-store
 sudo snap install obsidian --classic
 sudo snap install code --classic
@@ -45,3 +47,7 @@ sudo snap install apple-music-for-linux
 
 sudo snap install mc-installer
 sudo snap install steam
+
+# Install flatpaks
+flatpak install flathub md.obsidian.Obsidian
+
