@@ -49,5 +49,12 @@ sudo snap install mc-installer
 sudo snap install steam
 
 # Install flatpaks
+
+flatpak install flathub com.github.tchx84.Flatseal
+flatpak install flathub io.github.giantpinkrobots.flatsweep
+
+flatpak install flathub com.vivaldi.Vivaldi
 flatpak install flathub md.obsidian.Obsidian
+
+flatpak install flathub org.musescore.MuseScore
 
