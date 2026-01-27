@@ -23,3 +23,5 @@ git clone https://github.com/ryanoasis/nerd-fonts
 apt install -y kdenlive krita
 
 sudo snap install obsidian --classic
+sudo snap install code --classic
+sudo snap install pycharm --classic
