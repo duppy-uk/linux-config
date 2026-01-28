@@ -19,6 +19,8 @@ apt install -y build-essential kubuntu-restricted-extras deja-dup
 # Install fonts
 apt install -y fonts-cascadia-code fonts-cherrybomb fonts-chomsky fonts-firacode fonts-gnutypewriter fonts-humor-sans fonts-kode-mono fonts-montserrat fonts-opendyslexic fonts-roboto
 git clone https://github.com/ryanoasis/nerd-fonts
+cd nerd-fonts
+./install
 
 apt install -y kdenlive krita akregator tellico krdc
 
