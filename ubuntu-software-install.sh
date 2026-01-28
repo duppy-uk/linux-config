@@ -23,6 +23,7 @@ apt install code
 
 # Install small utilities
 apt install -y joe nala xfce4-terminal btop onedriver filezilla 
+apt install docker.io docker-compose-v2 freerdp3-x11
 
 apt install -y build-essential kubuntu-restricted-extras deja-dup
 
@@ -32,7 +33,7 @@ git clone https://github.com/ryanoasis/nerd-fonts
 cd nerd-fonts
 ./install
 
-apt install -y kdenlive krita akregator tellico krdc
+apt install -y kdenlive krita akregator tellico krdc ktorrent
 
 # Install snaps
 
