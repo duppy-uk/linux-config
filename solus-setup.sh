@@ -6,6 +6,9 @@ systemctl mask temp.mount
 #Get the system up-to-date before any new installations
 eopkg -y upgrade
 
+# May be better refactored as in this article
+# https://superuser.com/questions/508507/linux-bash-script-single-command-but-multiple-lines
+
 eopkg -y install adwaita-colors-icon-theme
 eopkg -y install adwaita-fonts
 eopkg -y install adwaita-icon-theme
