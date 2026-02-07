@@ -70,6 +70,19 @@ eopkg -y install font-overpass-otf
 eopkg -y install font-roboto-ttf
 eopkg -y install font-sarasa-gothic
 eopkg -y install font-tt2020-ttf
+eopkg -y install freerdp
+eopkg -y install gcc
+eopkg -y install gcobol
+eopkg -y install gfortran
+eopkg -y install g++
+eopkg -y install git
+eopkg -y install git-cola
+eopkg -y install github-cli
+eopkg -y install gnome-software
+eopkg -y install golang
+eopkg -y install gparted
+eopkg -y install gramps
+
 
 eopkg -y install solseek
 eopkg -y install vscode
