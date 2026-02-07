@@ -163,50 +163,50 @@ eopkg -y -d -v -N install zed
 eopkg -y -d -v -N install zsh
 
 echo "== APPLICATIONS =="
-flatpak install flathub org.alienarena.alienarena
-flatpak install flathub com.google.AndroidStudio
-flatpak install flathub io.github.prateekmedia.appimagepool
-flatpak install flathub net.cubers.assault.AssaultCube
-flatpak install flathub ca.victorz.acr.AssaultCubeReloaded
-flatpak install flathub io.github.ebonjaeger.bluejay
-flatpak install flathub io.github.dvlv.boxbuddyrs
-flatpak install flathub page.codeberg.censor.Censor
-flatpak install flathub com.ranfdev.DistroShelf
-flatpak install flathub org.kartkrew.RingRacers
-flatpak install flathub com.jgraph.drawio.desktop
-flatpak install flathub org.eclipse.Java
-flatpak install flathub io.github.getnf.embellish
-flatpak install flathub com.github.tchx84.Flatseal
-flatpak install flathub io.github.giantpinkrobots.flatsweep
-flatpak install flathub me.hyliu.fluentreader
-flatpak install flathub io.freetubeapp.FreeTube
-flatpak install flathub com.frogatto.Frogatto
-flatpak install flathub io.github.shiftey.Desktop
-flatpak install flathub com.jetbrains.IntelliJ-IDEA-Community
-flatpak install flathub net.lutris.Lutris
-flatpak install flathub com.microsoft.Edge
-flatpak install flathub com.github.phase1geo.minder
-flatpak install flathub com.mojang.Minecraft
-flatpak install flathub io.mrarm.mcpelauncher
-flatpak install flathub org.apache.netbeans
-flatpak install flathub md.obsidian.Obsidian
-flatpak install flathub org.onlyoffice.desktopeditors
-flatpak install flathub com.github.IsmaelMartinez.teams_for_linux
-flatpak install flathub io.github.prateekmedia.pstube
-flatpak install flathub com.jetbrains.RustRover
-flatpak install flathub edu.mit.Scratch
-flatpak install flathub de.haeckerfelix.Shortwave
-flatpak install flathub org.srb2.SRB2
-flatpak install flathub org.srb2.SRB2Kart
-flatpak install flathub org.sonic3air.Sonic3AIR
-flatpak install flathub com.rocksandpaper.syndic
-flatpak install flathub com.moddb.TotalChaos
-flatpak install flathub com.moddb.TotalChaosRetro
-flatpak install flathub io.sourceforge.trigger_rally.TriggerRally
-flatpak install flathub com.ktechpit.whatsie
-flatpak install flathub com.realm667.Wolfenstein_Blade_of_Agony
-flatpak install flathub app.xmcl.voxelum
-flatpak install flathub us.zoom.Zoom
+flatpak install -y  flathub org.alienarena.alienarena
+flatpak install -y  flathub com.google.AndroidStudio
+flatpak install -y  flathub io.github.prateekmedia.appimagepool
+flatpak install -y  flathub net.cubers.assault.AssaultCube
+flatpak install -y  flathub ca.victorz.acr.AssaultCubeReloaded
+flatpak install -y  flathub io.github.ebonjaeger.bluejay
+flatpak install -y  flathub io.github.dvlv.boxbuddyrs
+flatpak install -y  flathub page.codeberg.censor.Censor
+flatpak install -y  flathub com.ranfdev.DistroShelf
+flatpak install -y  flathub org.kartkrew.RingRacers
+flatpak install -y  flathub com.jgraph.drawio.desktop
+flatpak install -y  flathub org.eclipse.Java
+flatpak install -y  flathub io.github.getnf.embellish
+flatpak install -y  flathub com.github.tchx84.Flatseal
+flatpak install -y  flathub io.github.giantpinkrobots.flatsweep
+flatpak install -y  flathub me.hyliu.fluentreader
+flatpak install -y  flathub io.freetubeapp.FreeTube
+flatpak install -y  flathub com.frogatto.Frogatto
+flatpak install -y  flathub io.github.shiftey.Desktop
+flatpak install -y  flathub com.jetbrains.IntelliJ-IDEA-Community
+flatpak install -y  flathub net.lutris.Lutris
+flatpak install -y  flathub com.microsoft.Edge
+flatpak install -y  flathub com.github.phase1geo.minder
+flatpak install -y  flathub com.mojang.Minecraft
+flatpak install -y  flathub io.mrarm.mcpelauncher
+flatpak install -y  flathub org.apache.netbeans
+flatpak install -y  flathub md.obsidian.Obsidian
+flatpak install -y  flathub org.onlyoffice.desktopeditors
+flatpak install -y  flathub com.github.IsmaelMartinez.teams_for_linux
+flatpak install -y  flathub io.github.prateekmedia.pstube
+flatpak install -y  flathub com.jetbrains.RustRover
+flatpak install -y  flathub edu.mit.Scratch
+flatpak install -y  flathub de.haeckerfelix.Shortwave
+flatpak install -y  flathub org.srb2.SRB2
+flatpak install -y  flathub org.srb2.SRB2Kart
+flatpak install -y  flathub org.sonic3air.Sonic3AIR
+flatpak install -y  flathub com.rocksandpaper.syndic
+flatpak install -y  flathub com.moddb.TotalChaos
+flatpak install -y  flathub com.moddb.TotalChaosRetro
+flatpak install -y  flathub io.sourceforge.trigger_rally.TriggerRally
+flatpak install -y  flathub com.ktechpit.whatsie
+flatpak install -y  flathub com.realm667.Wolfenstein_Blade_of_Agony
+flatpak install -y  flathub app.xmcl.voxelum
+flatpak install -y  flathub us.zoom.Zoom
 
 echo "== SETTINGS =="
 

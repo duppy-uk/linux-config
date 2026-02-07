@@ -63,46 +63,46 @@ snap install steam
 
 # Install flatpaks
 
-flatpak install flathub com.github.tchx84.Flatseal
-flatpak install flathub io.github.giantpinkrobots.flatsweep
-flatpak install flathub io.github.flattool.Warehouse
+flatpak install -y  flathub com.github.tchx84.Flatseal
+flatpak install -y  flathub io.github.giantpinkrobots.flatsweep
+flatpak install -y  flathub io.github.flattool.Warehouse
 
-flatpak install flathub io.github.smallbasic.SmallBASIC
-flatpak install flathub io.github.shiftey.Desktop
-flatpak install flathub com.jetbrains.RustRover
+flatpak install -y  flathub io.github.smallbasic.SmallBASIC
+flatpak install -y  flathub io.github.shiftey.Desktop
+flatpak install -y  flathub com.jetbrains.RustRover
 
-flatpak install flathub com.vivaldi.Vivaldi
-flatpak install flathub com.microsoft.Edge
-flatpak install flathub org.pvermeer.WebAppHub
-flatpak install flathub io.github.zaedus.spider
-flatpak install flathub com.discordapp.Discord
-flatpak install flathub org.signal.Signal
-flatpak install flathub us.zoom.Zoom
-flatpak install flathub com.github.IsmaelMartinez.teams_for_linux
+flatpak install -y  flathub com.vivaldi.Vivaldi
+flatpak install -y  flathub com.microsoft.Edge
+flatpak install -y  flathub org.pvermeer.WebAppHub
+flatpak install -y  flathub io.github.zaedus.spider
+flatpak install -y  flathub com.discordapp.Discord
+flatpak install -y  flathub org.signal.Signal
+flatpak install -y  flathub us.zoom.Zoom
+flatpak install -y  flathub com.github.IsmaelMartinez.teams_for_linux
 
-flatpak install flathub com.vivaldi.Vivaldi
-flatpak install flathub md.obsidian.Obsidian
-flatpak install flathub org.zotero.Zotero
-flatpak install flathub com.jgraph.drawio.desktop
-flatpak install flathub org.onlyoffice.desktopeditors
+flatpak install -y  flathub com.vivaldi.Vivaldi
+flatpak install -y  flathub md.obsidian.Obsidian
+flatpak install -y  flathub org.zotero.Zotero
+flatpak install -y  flathub com.jgraph.drawio.desktop
+flatpak install -y  flathub org.onlyoffice.desktopeditors
 
-flatpak install flathub org.gramps_project.Gramps
-# flatpak install flathub org.kde.tellico
-flatpak install flathub org.musescore.MuseScore
-flatpak install flathub org.audacityteam.Audacity
-# flatpak install flathub org.kde.krita
-flatpak install flathub in.co.nandakumar.vara
-flatpak install flathub xyz.parlatype.Parlatype
-flatpak install flathub com.cinecred.cinecred
-flatpak install flathub org.jitsi.jitsi-meet
-flatpak install flathub com.github.louis77.tuner
-flatpak install flathub io.github.Archeb.opentrace
-flatpak install flathub io.github.mhogomchungu.media-downloader
-flatpak install flathub io.github.prateekmedia.pstube
+flatpak install -y  flathub org.gramps_project.Gramps
+# flatpak install -y  flathub org.kde.tellico
+flatpak install -y  flathub org.musescore.MuseScore
+flatpak install -y  flathub org.audacityteam.Audacity
+# flatpak install -y  flathub org.kde.krita
+flatpak install -y  flathub in.co.nandakumar.vara
+flatpak install -y  flathub xyz.parlatype.Parlatype
+flatpak install -y  flathub com.cinecred.cinecred
+flatpak install -y  flathub org.jitsi.jitsi-meet
+flatpak install -y  flathub com.github.louis77.tuner
+flatpak install -y  flathub io.github.Archeb.opentrace
+flatpak install -y  flathub io.github.mhogomchungu.media-downloader
+flatpak install -y  flathub io.github.prateekmedia.pstube
 
 # Games
 apt install -y -d -v -N alien-arena supertux supertuxkart
-flatpak install flathub com.mojang.Minecraft
-flatpak install flathub org.srb2.SRB2
-flatpak install flathub org.kartkrew.RingRacers
-flatpak install flathub com.heroicgameslauncher.hgl
+flatpak install -y  flathub com.mojang.Minecraft
+flatpak install -y  flathub org.srb2.SRB2
+flatpak install -y  flathub org.kartkrew.RingRacers
+flatpak install -y  flathub com.heroicgameslauncher.hgl
