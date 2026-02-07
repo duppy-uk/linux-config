@@ -38,6 +38,17 @@ eopkg -y install btop
 eopkg -y install budgie-backgrounds
 eopkg -y install cabextract
 eopkg -y install calibre
+eopkg -y install codeblocks
+eopkg -y install codelite
+eopkg -y install conky
+eopkg -y install darkly
+eopkg -y install darktable
+eopkg -y install deepin-icon-theme
+eopkg -y install deepin-icon-theme-bloom-dark
+eopkg -y install deepin-icon-theme-bloom
+eopkg -y install deepin-icon-theme-sea
+eopkg -y install dejadup
+eopkg -y install discord
 
 eopkg -y install solseek
 eopkg -y install vscode
