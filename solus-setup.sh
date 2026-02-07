@@ -58,7 +58,7 @@ eopkg -y -d -v -N install filezilla
 eopkg -y -d -v -N install fish
 eopkg -y -d -v -N install font-awesome-ttf
 eopkg -y -d -v -N install font-clear-sans-ttf
-eopkg -y -d -v -N install font-fireacode-ttf
+eopkg -y -d -v -N install font-firecode-ttf
 eopkg -y -d -v -N install font-firago
 eopkg -y -d -v -N install font-fira-ttf
 eopkg -y -d -v -N install font-ibm-plex-ttf
@@ -91,12 +91,12 @@ eopkg -y -d -v -N install ipscan
 eopkg -y -d -v -N install joe
 eopkg -y -d -v -N install just
 eopkg -y -d -v -N install k3b
-eopkg -y -d -v -N install kaffine
+eopkg -y -d -v -N install ka
 eopkg -y -d -v -N install kdenlive
 eopkg -y -d -v -N install kdevelop
 eopkg -y -d -v -N install krita
 eopkg -y -d -v -N install ktorrent
-eopkg -y -d -v -N install lacapitaine-icon-theme
+eopkg -y -d -v -N install la-capitaine-icon-theme
 eopkg -y -d -v -N install minigalaxy
 eopkg -y -d -v -N install moka-icon-theme
 eopkg -y -d -v -N install musescore
@@ -143,7 +143,7 @@ eopkg -y -d -v -N install surfn-papirus-grey-icon-theme
 eopkg -y -d -v -N install surfn-qogir-icon-theme
 eopkg -y -d -v -N install surfn-tela-icon-theme
 eopkg -y -d -v -N install surfn-vertexed-icon-theme
-eopkg -y -d -v -N install surfn-black-icon-theme
+eopkg -y -d -v -N install surfn-vimix-black-icon-theme
 eopkg -y -d -v -N install suru-plus-icon-theme
 eopkg -y -d -v -N install tailscale
 eopkg -y -d -v -N install telegram
