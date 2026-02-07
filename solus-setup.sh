@@ -48,7 +48,7 @@ eopkg -y install deepin-icon-theme
 eopkg -y install deepin-icon-theme-bloom-dark
 eopkg -y install deepin-icon-theme-bloom
 eopkg -y install deepin-icon-theme-sea
-eopkg -y install dejadup
+eopkg -y install deja-dup
 eopkg -y install discord
 eopkg -y install distrobox
 eopkg -y install element
