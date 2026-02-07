@@ -38,6 +38,7 @@ eopkg -y -d -v -N install btop
 eopkg -y -d -v -N install budgie-backgrounds
 eopkg -y -d -v -N install cabextract
 eopkg -y -d -v -N install calibre
+eopkg -y -d -v -N install cinelerra-gg
 eopkg -y -d -v -N install codeblocks
 eopkg -y -d -v -N install codelite
 eopkg -y -d -v -N install conky
@@ -156,8 +157,14 @@ eopkg -y -d -v -N install zed
 eopkg -y -d -v -N install zsh
 
 echo "== APPLICATIONS =="
-eopkg -y -d -v -N install ardour
-eopkg -y -d -v -N install audacity
+flatpak install flathub org.alienarena.alienarena
+flatpak install flathub com.google.AndroidStudio
+flatpak install flathub io.github.prateekmedia.appimagepool
+flatpak install flathub net.cubers.assault.AssaultCube
+flatpak install flathub ca.victorz.acr.AssaultCubeReloaded
+flatpak install flathub io.github.ebonjaeger.bluejay
+flatpak install flathub io.github.dvlv.boxbuddyrs
+flatpak install flathub page.codeberg.censor.Censor
 
 echo "== SETTINGS =="
 
