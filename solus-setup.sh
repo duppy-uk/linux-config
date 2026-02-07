@@ -212,7 +212,7 @@ echo "== SETTINGS =="
 
 # Add global git values -- NEEDS CHECKING
 
-#git config --global user.name "Darren Upton"
+#git config --global user.name "duppy-uk"
 #git config --global user.email "dbupton@outlook.com"
 
 echo "== CLEAN UP =="
