@@ -41,6 +41,7 @@ eopkg -y install calibre
 eopkg -y install codeblocks
 eopkg -y install codelite
 eopkg -y install conky
+eopkg -y install conky-manager
 eopkg -y install darkly
 eopkg -y install darktable
 eopkg -y install deepin-icon-theme
@@ -156,6 +157,7 @@ eopkg -y install zsh
 
 echo "== APPLICATIONS =="
 eopkg -y install ardour
+eopkg -y install audacity
 
 echo "== SETTINGS =="
 
