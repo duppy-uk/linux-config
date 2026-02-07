@@ -49,6 +49,27 @@ eopkg -y install deepin-icon-theme-bloom
 eopkg -y install deepin-icon-theme-sea
 eopkg -y install dejadup
 eopkg -y install discord
+eopkg -y install distrobox
+eopkg -y install element
+eopkg -y install etcher
+eopkg -y install fastfetch
+eopkg -y install filezilla
+eopkg -y install fish
+eopkg -y install font-awesome-ttf
+eopkg -y install font-clear-sans-ttf
+eopkg -y install font-fireacode-ttf
+eopkg -y install font-firago
+eopkg -y install font-fira-ttf
+eopkg -y install font-ibm-plex-ttf
+eopkg -y install font-intel-one-mono-ttf
+eopkg -y install font-inter
+eopkg -y install font-iosevka-ttf
+eopkg -y install font-jetbrainsmono-ttf
+eopkg -y install font-opendyslexic-otf
+eopkg -y install font-overpass-otf
+eopkg -y install font-roboto-ttf
+eopkg -y install font-sarasa-gothic
+eopkg -y install font-tt2020-ttf
 
 eopkg -y install solseek
 eopkg -y install vscode
