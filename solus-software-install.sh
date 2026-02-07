@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Disable tmpfs going to RAM
+sudo systemctl mask temp.mount
+
+#Get the system up-to-date before any new installations
 sudo eopkg -y upgrade
 
 sudo eopkg -y install adwaita-colors-icon-theme
