@@ -143,8 +143,19 @@ eopkg -y install surfn-qogir-icon-theme
 eopkg -y install surfn-tela-icon-theme
 eopkg -y install surfn-vertexed-icon-theme
 eopkg -y install surfn-black-icon-theme
+eopkg -y install suru-plus-icon-theme
+eopkg -y install tailscale
+eopkg -y install telegram
+eopkg -y install thonny
+eopkg -y install vivaldi-stable
+eopkg -y install vlc
 eopkg -y install vscode
+eopkg -y install xfce4-terminal
+eopkg -y install zed
+eopkg -y install zsh
 
+echo "== APPLICATIONS =="
+eopkg -y install ardour
 
 echo "== SETTINGS =="
 
