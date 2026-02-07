@@ -98,10 +98,51 @@ eopkg -y install ktorrent
 eopkg -y install lacapitaine-icon-theme
 eopkg -y install minigalaxy
 eopkg -y install moka-icon-theme
-
+eopkg -y install musescore
+eopkg -y install onedrive-gui
+eopkg -y install paper-icon-theme
+eopkg -y install parlatype
+eopkg -y install plasma-workspace-wallpapers
+eopkg -y install plata-theme
+eopkg -y install powerlevel10k
+eopkg -y install powerline-fonts
+eopkg -y install quickemu
+eopkg -y install rsync
+eopkg -y install rust
+eopkg -y install rustup
+eopkg -y install sane-airscan
+eopkg -y install scrcpy
 eopkg -y install signal-desktop
-
+eopkg -y install skanlite
+eopkg -y install skanpage
 eopkg -y install solseek
+eopkg -y install steam
+eopkg -y install supertuxkart
+eopkg -y install supertux
+eopkg -y install surfn-arch-blue-icon-theme
+eopkg -y install surfn-arched-icon-theme
+eopkg -y install surfn-arc-icon-theme
+eopkg -y install surfn-breeze-arc-icon-theme
+eopkg -y install surfn-breeze-dark-icon-theme
+eopkg -y install surfn-dracul-icon-theme
+eopkg -y install surfn-evopop-icon-theme
+eopkg -y install surfn-icon-theme
+eopkg -y install surfn-luv-icon-theme
+eopkg -y install surfn-luv-red-icon-theme
+eopkg -y install surfn-majestic-icon-theme
+eopkg -y install surfn-mint-x-grey-icon-theme
+eopkg -y install surfn-numix-icon-theme
+eopkg -y install surfn-numix-misty-icon-theme
+eopkg -y install surfn-numix-polo-icon-theme
+eopkg -y install surfn-numixs-icon-theme
+eopkg -y install surfn-orange-icon-theme
+eopkg -y install surfn-papirus-blue-icon-theme
+eopkg -y install surfn-papirus-casablanca-icon-theme
+eopkg -y install surfn-papirus-grey-icon-theme
+eopkg -y install surfn-qogir-icon-theme
+eopkg -y install surfn-tela-icon-theme
+eopkg -y install surfn-vertexed-icon-theme
+eopkg -y install surfn-black-icon-theme
 eopkg -y install vscode
 
 
