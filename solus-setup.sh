@@ -103,18 +103,23 @@ eopkg -y -d -v -N install minigalaxy
 eopkg -y -d -v -N install moka-icon-theme
 eopkg -y -d -v -N install musescore
 eopkg -y -d -v -N install onedrive-gui
+eopkg -y -d -v -N install palapeli
 eopkg -y -d -v -N install paper-icon-theme
 eopkg -y -d -v -N install parlatype
 eopkg -y -d -v -N install plasma-workspace-wallpapers
 eopkg -y -d -v -N install plata-theme
 eopkg -y -d -v -N install powerlevel10k
 eopkg -y -d -v -N install powerline-fonts
+eopkg -y -d -v -N install prism-launcher
+eopkg -y -d -v -N install projectlibre
 eopkg -y -d -v -N install quickemu
+eopkg -y -d -v -N install rssguard
 eopkg -y -d -v -N install rsync
 eopkg -y -d -v -N install rust
 eopkg -y -d -v -N install rustup
 eopkg -y -d -v -N install sane-airscan
 eopkg -y -d -v -N install scrcpy
+eopkg -y -d -v -N install scribus
 eopkg -y -d -v -N install signal-desktop
 eopkg -y -d -v -N install skanlite
 eopkg -y -d -v -N install skanpage
@@ -186,6 +191,22 @@ flatpak install flathub io.mrarm.mcpelauncher
 flatpak install flathub org.apache.netbeans
 flatpak install flathub md.obsidian.Obsidian
 flatpak install flathub org.onlyoffice.desktopeditors
+flatpak install flathub com.github.IsmaelMartinez.teams_for_linux
+flatpak install flathub io.github.prateekmedia.pstube
+flatpak install flathub com.jetbrains.RustRover
+flatpak install flathub edu.mit.Scratch
+flatpak install flathub de.haeckerfelix.Shortwave
+flatpak install flathub org.srb2.SRB2
+flatpak install flathub org.srb2.SRB2Kart
+flatpak install flathub org.sonic3air.Sonic3AIR
+flatpak install flathub com.rocksandpaper.syndic
+flatpak install flathub com.moddb.TotalChaos
+flatpak install flathub com.moddb.TotalChaosRetro
+flatpak install flathub io.sourceforge.trigger_rally.TriggerRally
+flatpak install flathub com.ktechpit.whatsie
+flatpak install flathub com.realm667.Wolfenstein_Blade_of_Agony
+flatpak install flathub app.xmcl.voxelum
+flatpak install flathub us.zoom.Zoom
 
 echo "== SETTINGS =="
 
