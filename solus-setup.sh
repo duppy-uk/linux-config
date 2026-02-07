@@ -82,7 +82,24 @@ eopkg -y install gnome-software
 eopkg -y install golang
 eopkg -y install gparted
 eopkg -y install gramps
+eopkg -y install handbrake
+eopkg -y install hedgewars
+eopkg -y install heroic-games-launcher
+eopkg -y install inkscape
+eopkg -y install ipscan
+eopkg -y install joe
+eopkg -y install just
+eopkg -y install k3b
+eopkg -y install kaffine
+eopkg -y install kdenlive
+eopkg -y install kdevelop
+eopkg -y install krita
+eopkg -y install ktorrent
+eopkg -y install lacapitaine-icon-theme
+eopkg -y install minigalaxy
+eopkg -y install moka-icon-theme
 
+eopkg -y install signal-desktop
 
 eopkg -y install solseek
 eopkg -y install vscode
