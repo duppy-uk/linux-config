@@ -13,6 +13,6 @@ echo "deb [arch=amd64] https://pkg.surfacelinux.com/debian release main" \
 sudo apt update
 
 # Kernel installation
-sudo apt install -y linux-image-surface linux-headers-surface libwacom-surface iptsd linux-surface-secureboot-mok
+sudo apt install -y -d -v -N linux-image-surface linux-headers-surface libwacom-surface iptsd linux-surface-secureboot-mok
 
 sudo update-grub

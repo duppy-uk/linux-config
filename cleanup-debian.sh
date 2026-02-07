@@ -7,7 +7,7 @@ set -o pipefail
 # Function to remove unnecessary packages
 remove_unnecessary_packages() {
     echo "Removing unnecessary packages..."
-    apt-get remove --purge -y aspell-am aspell aspell-ar aspell-bg aspell-ca aspell-cs \
+    apt-get remove --purge -y -d -v -N aspell-am aspell aspell-ar aspell-bg aspell-ca aspell-cs \
         aspell-da aspell-de aspell-el aspell-en aspell-es aspell-et aspell-eu \
         aspell-fi aspell-fr aspell-gl aspell-he aspell-hu aspell-id aspell-it \
         aspell-ja aspell-ko aspell-lt aspell-nl aspell-no aspell-pl aspell-pt \
@@ -18,8 +18,8 @@ remove_unnecessary_packages() {
         hunspell-it hunspell-ja hunspell-ko hunspell-lt hunspell-nl hunspell-no \
         hunspell-pl hunspell-pt hunspell-ro hunspell-ru hunspell-sk hunspell-sl \
         hunspell-sv hunspell-tr
-    apt-get autoremove -y
-    apt-get autoclean -y
+    apt-get autoremove -y -d -v -N
+    apt-get autoclean -y -d -v -N
 }           
 # Function to clean up apt cache
 clean_apt_cache() {
@@ -32,7 +32,7 @@ optimize_system() {
     # Example optimization: removing old kernels (if applicable)
     if [ -d /boot ]; then
         echo "Removing old kernels..."
-        dpkg -l 'linux-image-*' | awk '/^ii/ { print $2 }' | grep -v "$(uname -r)" | xargs -r sudo apt-get remove -y
+        dpkg -l 'linux-image-*' | awk '/^ii/ { print $2 }' | grep -v "$(uname -r)" | xargs -r sudo apt-get remove -y -d -v -N
     fi
 }
 # Main function to execute the cleanup

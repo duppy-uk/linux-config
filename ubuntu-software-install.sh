@@ -7,9 +7,9 @@ apt update && apt upgrade
 
 # Install software repositories & store
 
-apt install -y flatpak malcontent-gui plasma-discover-backend-flatpak
+apt install -y -d -v -N flatpak malcontent-gui plasma-discover-backend-flatpak
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-apt install -y gnome-software gnome-software-plugin-flatpak gnome-software-plugin-snap
+apt install -y -d -v -N gnome-software gnome-software-plugin-flatpak gnome-software-plugin-snap
 
 # Install VS Code
 
@@ -22,18 +22,18 @@ apt update
 apt install code
 
 # Install small utilities
-apt install -y joe nala xfce4-terminal btop onedriver filezilla 
+apt install -y -d -v -N joe nala xfce4-terminal btop onedriver filezilla 
 apt install docker.io docker-compose-v2 freerdp3-x11
 
-apt install -y build-essential kubuntu-restricted-extras deja-dup
+apt install -y -d -v -N build-essential kubuntu-restricted-extras deja-dup
 
 # Install fonts
-apt install -y fonts-cascadia-code fonts-cherrybomb fonts-chomsky fonts-firacode fonts-gnutypewriter fonts-humor-sans fonts-kode-mono fonts-montserrat fonts-opendyslexic fonts-roboto
+apt install -y -d -v -N fonts-cascadia-code fonts-cherrybomb fonts-chomsky fonts-firacode fonts-gnutypewriter fonts-humor-sans fonts-kode-mono fonts-montserrat fonts-opendyslexic fonts-roboto
 git clone https://github.com/ryanoasis/nerd-fonts
 cd nerd-fonts
 ./install
 
-apt install -y kdenlive krita akregator tellico krdc ktorrent
+apt install -y -d -v -N kdenlive krita akregator tellico krdc ktorrent
 
 # Install snaps
 
@@ -101,7 +101,7 @@ flatpak install flathub io.github.mhogomchungu.media-downloader
 flatpak install flathub io.github.prateekmedia.pstube
 
 # Games
-apt install -y alien-arena supertux supertuxkart
+apt install -y -d -v -N alien-arena supertux supertuxkart
 flatpak install flathub com.mojang.Minecraft
 flatpak install flathub org.srb2.SRB2
 flatpak install flathub org.kartkrew.RingRacers
