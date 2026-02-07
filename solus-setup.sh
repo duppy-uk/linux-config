@@ -72,6 +72,7 @@ eopkg -y -d -v -N install font-overpass-otf
 eopkg -y -d -v -N install font-roboto-ttf
 eopkg -y -d -v -N install font-sarasa-gothic
 eopkg -y -d -v -N install font-tt2020-ttf
+eopkg -y -d -v -N install freeplane
 eopkg -y -d -v -N install freerdp
 eopkg -y -d -v -N install gcc
 eopkg -y -d -v -N install gcobol
@@ -92,7 +93,7 @@ eopkg -y -d -v -N install ipscan
 eopkg -y -d -v -N install joe
 eopkg -y -d -v -N install just
 eopkg -y -d -v -N install k3b
-eopkg -y -d -v -N install ka
+eopkg -y -d -v -N install krdc
 eopkg -y -d -v -N install kdenlive
 eopkg -y -d -v -N install kdevelop
 eopkg -y -d -v -N install krita
@@ -165,6 +166,26 @@ flatpak install flathub ca.victorz.acr.AssaultCubeReloaded
 flatpak install flathub io.github.ebonjaeger.bluejay
 flatpak install flathub io.github.dvlv.boxbuddyrs
 flatpak install flathub page.codeberg.censor.Censor
+flatpak install flathub com.ranfdev.DistroShelf
+flatpak install flathub org.kartkrew.RingRacers
+flatpak install flathub com.jgraph.drawio.desktop
+flatpak install flathub org.eclipse.Java
+flatpak install flathub io.github.getnf.embellish
+flatpak install flathub com.github.tchx84.Flatseal
+flatpak install flathub io.github.giantpinkrobots.flatsweep
+flatpak install flathub me.hyliu.fluentreader
+flatpak install flathub io.freetubeapp.FreeTube
+flatpak install flathub com.frogatto.Frogatto
+flatpak install flathub io.github.shiftey.Desktop
+flatpak install flathub com.jetbrains.IntelliJ-IDEA-Community
+flatpak install flathub net.lutris.Lutris
+flatpak install flathub com.microsoft.Edge
+flatpak install flathub com.github.phase1geo.minder
+flatpak install flathub com.mojang.Minecraft
+flatpak install flathub io.mrarm.mcpelauncher
+flatpak install flathub org.apache.netbeans
+flatpak install flathub md.obsidian.Obsidian
+flatpak install flathub org.onlyoffice.desktopeditors
 
 echo "== SETTINGS =="
 
