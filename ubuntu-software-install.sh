@@ -89,7 +89,7 @@ flatpak install -y  flathub io.github.mhogomchungu.media-downloader
 flatpak install -y  flathub io.github.prateekmedia.pstube
 
 # Games
-apt install -y -d -v -N alien-arena supertux supertuxkart
+apt install -y alien-arena supertux supertuxkart
 flatpak install -y  flathub com.mojang.Minecraft
 flatpak install -y  flathub org.srb2.SRB2
 flatpak install -y  flathub org.kartkrew.RingRacers
