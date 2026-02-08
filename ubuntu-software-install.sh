@@ -7,33 +7,21 @@ apt update && apt upgrade
 
 # Install software repositories & store
 
-apt install -y -d -v -N flatpak malcontent-gui plasma-discover-backend-flatpak
+apt install -y flatpak malcontent-gui plasma-discover-backend-flatpak
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-apt install -y -d -v -N gnome-software gnome-software-plugin-flatpak gnome-software-plugin-snap
+apt install -y gnome-software gnome-software-plugin-flatpak gnome-software-plugin-snap
 
-# Install VS Code
-
-wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor \
-  | install -D -o root -g root -m 644 /dev/stdin /etc/apt/keyrings/packages.microsoft.gpg
-echo "deb [arch=amd64,arm64 signed-by=/etc/apt/keyrings/packages.microsoft.gpg] \
-  https://packages.microsoft.com/repos/code stable main" \
-  | tee /etc/apt/sources.list.d/vscode.list
-apt update
-apt install code
 
 # Install small utilities
-apt install -y -d -v -N joe nala xfce4-terminal btop onedriver filezilla 
+apt install -y joe nala xfce4-terminal btop onedriver filezilla 
 apt install docker.io docker-compose-v2 freerdp3-x11
 
-apt install -y -d -v -N build-essential kubuntu-restricted-extras deja-dup
+apt install -y build-essential kubuntu-restricted-extras deja-dup
 
 # Install fonts
-apt install -y -d -v -N fonts-cascadia-code fonts-cherrybomb fonts-chomsky fonts-firacode fonts-gnutypewriter fonts-humor-sans fonts-kode-mono fonts-montserrat fonts-opendyslexic fonts-roboto
-git clone https://github.com/ryanoasis/nerd-fonts
-cd nerd-fonts
-./install
+apt install -y fonts-cascadia-code fonts-cherrybomb fonts-chomsky fonts-firacode fonts-gnutypewriter fonts-humor-sans fonts-kode-mono fonts-montserrat fonts-opendyslexic fonts-roboto
 
-apt install -y -d -v -N kdenlive krita akregator tellico krdc ktorrent
+apt install -y kdenlive krita akregator tellico krdc ktorrent
 
 # Install snaps
 
@@ -80,8 +68,8 @@ flatpak install -y  flathub org.signal.Signal
 flatpak install -y  flathub us.zoom.Zoom
 flatpak install -y  flathub com.github.IsmaelMartinez.teams_for_linux
 
-flatpak install -y  flathub com.vivaldi.Vivaldi
-flatpak install -y  flathub md.obsidian.Obsidian
+# flatpak install -y  flathub com.vivaldi.Vivaldi
+# flatpak install -y  flathub md.obsidian.Obsidian
 flatpak install -y  flathub org.zotero.Zotero
 flatpak install -y  flathub com.jgraph.drawio.desktop
 flatpak install -y  flathub org.onlyoffice.desktopeditors
